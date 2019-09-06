@@ -17,6 +17,10 @@ android {
         }
     }
     buildToolsVersion = '28.0.3'
+    compileOptions {
+        sourceCompatibility = 1.7
+        targetCompatibility = 1.7
+    }
 }
 
 dependencies {
